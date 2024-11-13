@@ -75,7 +75,7 @@ const Formulario: React.FC = () => {
         visible: { opacity: 1, y: 0, transition: { duration: 1, ease: "easeOut" } },
     };
     return (
-        <section className="bg-white  px-4 md:px-28 pt-28 pb-12  md:pb-0 md:py-56">
+        <section className="bg-white  px-4 md:px-28 pt-36 pb-12  md:pb-0 md:py-56">
             <form onSubmit={handleSubmit(onSubmit)} className="border rounded-3xl border-[#03B349E0] p-4 md:p-16  flex flex-col items-center justify-center">
                 <motion.h1
                     className="font-mouse text-[#03B349E0] text-center text-4xl md:text-6xl"

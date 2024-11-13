@@ -56,7 +56,7 @@ const Contacto: React.FC = () => {
 
         </section>
         <section className="bg-[#663F24] flex justify-center relative z-10">
-            <Image src={Foro} alt="Foro footer" className="absolute -top-5 left-0 right-0 w-full"/>  
+            <Image src={Foro} alt="Foro footer" className="absolute -mt-3 md:-top-5 left-0 right-0 w-full h-5 "/>  
             <div className="max-w-[90%] flex flex-col  md:flex-row justify-center md:justify-between w-full py-8">
             <p className="text-white text-sm  text-center md:text-start md:text-base font-montserrat">
             2024 <strong>LA CHACRA</strong>. All rights reserved
