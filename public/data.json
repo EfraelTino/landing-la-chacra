@@ -4,7 +4,7 @@
       "id": 1,
       "titulo": "¡Descubre un paraíso de aprendizaje y diversión en La Chacra Granja Ecológica!",
       "buttonText": "Reserva aquí",
-      "linkbtn": "http://localhost:3000/comprar-entrada",
+      "linkbtn": "landing-la-chacra.vercel.app/comprar-entrada",
       "estado": 1
     }
   ],
