@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --principal: #14830A;
+  --secundario: #EF9956;
+}
+.font-mouse{
+  font-family: "Mouse Memoirs" ,sans-serif;
+
+}
+
+.font-montserrat{
+  font-family: "Montserrat", sans-serif;
+}
+.mision-container {
+  transition: all 1   s ease; 
+}
+
+.mision-container:hover .text-title {
+  text-align: left;
+}
+
+.mision-container:hover .text-item,
+.mision-container:hover .image-item {
+  height: auto;
+  opacity: 1;
+
+}
+.mision-container:hover .text-cnt, .mision-container:hover .image-item
+  {
+    width: 50%;
+}
+.mision-container:hover .text-cnt  {
+display: flex;
+align-items: start;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.vision:hover .text-title{
+  color: #14830A !important;
+}
+.data-bg::before{
+  backdrop-filter: blur(20px);
+}
+
+input[type="radio"]:checked {
+  background-color: red;
+}
+.bg-plin{
+  background: linear-gradient(45deg, rgba(34,162,252,1) 0%, rgba(0,226,205,1) 60%);
+}
+
+.custom-hidden {
+  display: none;
+}
+
+.hidden-p{
+  display: none;
+}

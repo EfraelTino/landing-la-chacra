@@ -1,0 +1,126 @@
+{
+  "principal": [
+    {
+      "id": 1,
+      "titulo": "¡Descubre un paraíso de aprendizaje y diversión en La Chacra Granja Ecológica!",
+      "buttonText": "Reserva aquí",
+      "linkbtn": "http://localhost:3000/comprar-entrada",
+      "estado": 1
+    }
+  ],
+  "imagina": [
+    {
+      "id": 1,
+      "titulo": "IMAGINA ...",
+      "descripcion": " Un lugar donde la naturaleza y la aventura se unen para crear experiencias inolvidables. La Chacra Granja Ecológica es un destino emocionante para niños escolares y preescolares,donde aprenderán sobre animales de granja, huertos y artesanía de manera interactiva y divertida.",
+      "videos": [
+        {
+          "id": 1,
+          "urlvideo": "https://res.cloudinary.com/dhleanjv2/video/upload/v1731423852/Segundo_ew5xsl.mov"
+        },
+        {
+          "id": 2,
+          "urlvideo": "https://res.cloudinary.com/dhleanjv2/video/upload/v1729099327/video_prbpdx.mp4"
+        },
+        {
+          "id": 3,
+          "urlvideo": "https://res.cloudinary.com/dhleanjv2/video/upload/v1731424411/termino_ofjjsx.mov"
+        }
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": 1,
+      "titulo": "Un entorno campestre ideal para el crecimiento",
+      "descripcion": "Nuestros paseos educativos están diseñados para grupos de niños de todas las edades. Nuestro equipo de expertos garantiza una experiencia segura y enriquecedora. Fomentamos la curiosidad, la creatividad y el respeto por la naturaleza.",
+      "imagen" : "/images/conejos.svg"
+    },
+    {
+      "id": 2,
+      "titulo": "Aprende, Explora, Disfruta",
+          "imagen" : "/images/entorno.svg",
+      "beneficios": [
+        {
+          "id": 1,
+          "descripcion": "Interactúa con animales y plantas, aprendiendo a cuidarlos y valorarlos."
+        },
+        {
+          "id": 2,
+          "descripcion": "Desarrolla habilidades prácticas en agricultura, ganadería, pesquería y artesanía."
+        },
+        {
+          "id": 3,
+          "descripcion": "Experimenta el aprendizaje vivencial a través de tus cinco sentidos."
+        }
+      ]
+    }
+  ],
+  "aprendizaje": [
+    {
+      "id": 1,
+      "titulo": "Únete a nuestra comunidad de aprendizaje",
+      "imagen": "/images/vaca.png",
+      "imagen_dos": "/images/gallina.png",
+      "textbtn": "Adquiere tu entrada",
+      "rutaBtn": "ruta",
+      "listaitems": [
+        {
+          "id": 1,
+          "contenido": "Reserva tu visita hoy mismo y dales a tus hijos la oportunidad de crecer en un entorno natural y estimulante."
+        },
+        {
+          "id": 2,
+          "contenido": "Descubre cómo nuestra Granja Educativa puede enriquecer la experiencia educativa de tus alumnos."
+        }
+      ]
+    }
+  ],
+  "talleres": [
+    {
+      "id": 1,
+      "titulo": "Talleres",
+      "tallerItems": [
+        {
+          "id": 1,
+          "titulo": "Granja",
+          "fondo": "/images/primero.svg",
+          "imagen": "/images/modelone.png",
+          "contenido": "Aprende sobre la vida en la granja y cuidado de animales."
+        },
+        {
+          "id": 2,
+          "titulo": "Huerta y Reciclaje",
+          "fondo": "/images/segundo.svg",
+          "imagen": "/images/huerta.svg",
+          "contenido": "Cultiva tus propias plantas y aprende a reciclar."
+        },
+        {
+          "id": 3,
+          "titulo": "Hidroponia",
+          "fondo": "/images/tercero.svg",
+          "imagen": "/images/hidrophonia.svg",
+          "contenido": "Descubre la agricultura sin tierra y la cría de peces."
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "titulo": "MISIÓN",
+      "texto": "Nos apasiona inspirar a las nuevas generaciones a cuidar y proteger nuestro planeta. A través de experiencias vivenciales y emocionantes, queremos sembrar valores de respeto y amor por la naturaleza.",
+      "imagen": "/images/misionimage.png"
+    },
+    {
+      "id": 2,
+      "titulo": "VISIÓN",
+      "texto": "Imaginamos un futuro donde la conexión con la naturaleza sea fundamental para nuestro bienestar y el de nuestro planeta. Queremos ser el lugar donde la curiosidad y la pasión por el medio ambiente se despierten.",
+      "imagen": "/images/vicionimg.png"
+    }
+  ],
+  "info": {
+    "id": 1,
+    "linkwaze": "ruta de waze"
+  }
+}
