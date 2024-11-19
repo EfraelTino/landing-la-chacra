@@ -9,11 +9,12 @@ const Plin: React.FC = () => {
 
 
     return (
-        <section className="bg-white px-28 py-56">
-            <div className="border rounded-3xl border-[#03B349E0] p-16 grid justify-center">
+        <section className="bg-white px-4 py-28 md:px-28 md:py-44">
+          <div className="border rounded-3xl border-[#03B349E0] px-2 py-2 md:p-16 grid justify-center">
                 <div className="flex justify-center mb-4"><Image
                     src={YapeIcon}
                     alt="Mercado Pago Icon"
+                      className="w-[50px]"
                     width={100}
                     height={50}
                 /></div>
@@ -22,15 +23,15 @@ const Plin: React.FC = () => {
                     <p className="text-white font-montserrat text-sm"> Escanee nuestro QR con su aplicación Plin, o agregue nuestro número celular a sus contactos y realice su pago con Plin.
                     </p>
                     <div className="grid grid-cols-2 gap-4">
-                        <div className="col-span-1 space-y-2">
+                        <div className="col-span-2 md:col-span-1">
                             <Image src={'https://dquis.com/wp-content/uploads/2024/05/9b55313f-c59b-4bdc-bc03-d9212e1b0c73.jpg'} width={100} className="w-full rounded shadow-lg" height={100} alt="Yape QR"/>
                             <h4 className="text-white font-black  font-montserrat  text-center">
-                                NOMBRE DE TITULAR
+                            Granja Ecológica La Chacra EIRL 
                             </h4>
                         </div>
-                        <div className="col-span-1 space-y-2">
+                        <div className="col-span-2 md:col-span-1 space-y-2">
                             <div className="flex justify-center">
-                                <Image src={YapeIcon} alt="Plin Icon" width={100} height={100} className="" />
+                                <Image src={YapeIcon} alt="Plin Icon" width={100} height={100} className="hidden-p md:flex"/>
                             </div>
                             <div className="flex flex-col items-center text-white">
                                 <p className="text-white font-normal font-montserrat text-center"><strong>Empresa: </strong> La Chacra</p>

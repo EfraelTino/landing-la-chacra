@@ -227,7 +227,7 @@ const Formulario: React.FC = () => {
                         />
                     </div>
                     {/* Fecha de Nacimiento */}
-                    <div>
+                    <div className="col-span-2">
                         <label htmlFor="dateVisit" className="text-[#03B349E0] font-bold font-montserrat text-lg">¿Qué fecha?</label>
                         <input
                             id="dateVisit"
@@ -251,18 +251,7 @@ const Formulario: React.FC = () => {
                         {errors.dateVisit && <p className="text-red-500 text-[10px] font-light">{errors.dateVisit.message}</p>}
                     </div>
                     {/* Horario */}
-                    <div>
-                        <InputElement
-                            id="schedule"
-                            label="¿Qué horario?"
-                            type="text"
-                            placeholder="Ejemplo: 10:00"
-                            register={register('schedule', {
-                                required: 'Ingresa un horario',
-                            })}
-                            error={errors.schedule}
-                        />
-                    </div>
+         
                     {/* Términos y condiciones */}
                     <div className="flex items-start gap-1 cursor-pointer">
                         <input
